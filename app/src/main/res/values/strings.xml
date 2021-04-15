@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">ShishiFace</string>
+    <string name="navigation_drawer_open">开启抽屉</string>
+    <string name="navigation_drawer_close">关闭抽屉</string>
+    <string name="nav_header_title">成都石室中学人脸识别系统</string>
+    <string name="nav_header_subtitle">Shishi High School Face Recognition</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">设置</string>
+    <string name="destroy_permission">注销权限</string>
+    <string name="exit">关闭</string>
+    <string name="alter_mode">提醒方式</string>
+    <string name="use_password">使用密码</string>
+    <string name="all_checked">全选</string>
+    <string name="reverse_choose">反选</string>
+    <string name="delete">删除</string>
+    <string name="input">导入</string>
+    <string name="output">导出</string>
+    <string name="group">分组</string>
+    <string name="add_temp_group">加入临时分组</string>
+    <string name="temp_group">临时分组</string>
+    <string name="clear_temp_group">清空临时分组</string>
+    <string name="restart_engine">重启引擎</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="welcome_splash">欢迎使用ShishiFace</string>
+    <string name="copyright_splash">Copyright © 2016~2019 UST</string>
+
+    <string name="menu_home">主界面</string>
+    <string name="menu_recognition">人脸识别</string>
+    <string name="menu_manage_faces">管理人脸</string>
+    <string name="menu_account_management">账户管理</string>
+    <string name="menu_about">关于</string>
+
+    <string name="active">激活</string>
+    <string name="active_success">激活成功</string>
+    <string name="already_activated">已经激活，无需再次激活</string>
+    <string name="active_failed">激活失败，错误代码为</string>
+    <string name="init_failed">引擎初始化失败，错误代码</string>
+    <string name="permission_denied">权限被拒绝！程序即将关闭</string>
+    <string name="main_welcome">欢迎使用成都石室中学人脸识别系统\n请在左边的菜单栏中打开需要的功能</string>
+
+    <string name="title_activity_face_recognition">人脸识别</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="FRbutton">记录人脸</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="manage_face_bt">管理现有人脸</string>
+    <string name="record_face_from_camera_bt">从摄像头录入</string>
+    <string name="record_face_from_file_bt">从文件中录入</string>
+    <string name="mf_text_view">至少需要管理员权限\n当前权限:</string>
+    <string name="sid">ID</string>
+    <string name="name">姓名</string>
+    <string name="gender">性别</string>
+    <string name="getSid">请填写ID</string>
+    <string name="getName">请填写姓名</string>
+    <string name="getGender">请填写性别</string>
+    <string name="afc_welcome">请填写必要的信息</string>
+    <string name="arc_commit">提交</string>
+    <string name="mf_more">更多</string>
+    <string name="allChecked">全选</string>
+    <string name="welcome">欢迎</string>
+    <string name="fu_start">开始</string>
+    <string name="title_activity_settings">设置</string>
+    <string name="search">搜索</string>
+    <string name="clear">×</string>
+    <string name="sysAdminInfo">系统管理员信息</string>
+    <string name="hasSysAdminPassword">启动系统管理员密码</string>
+    <string name="sysAdminPasswordHint">此密码适用于暗光下验证权限</string>
+    <string name="sysAdminPassword">系统管理员密码</string>
+    <string name="checkPassword">验证密码</string>
+    <string name="encryptDB">加密数据库</string>
+    <string name="encryptDBHint">加密系统采用AES-256位加密算法，密钥空间高达2的256次方。本地数据库强制加密，系统会为每台手机自动生成唯一密码并保存</string>
+    <string name="manageDBHint">导入或导出一个没有加密的[完整]数据库</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="todo">TODO</string>
+
+    <string name="changeSysAdmin">修改系统管理员</string>
+    <string name="manageAdmin">编辑管理员</string>
+
+    <string name="st_direction">人脸识别方向</string>
+    <string name="st_alert_mode">设置提醒方式</string>
+    <string name="st_login_in_timeout">权限保留时间</string>
+    <string name="st_allowed_distance">人脸识别距离</string>
+    <string name="st_liveness_demand">活体识别需求</string>
+    <string name="st_change_password">管理员密码</string>
+    <string name="st_encrypt_db">加密数据库</string>
+    <string name="st_manage_db">管理数据库</string>
+    <string name="st_wipe_all">清除所有数据</string>
+    <string name="face_info_title">填写信息</string>
+    <string name="only_id">唯一ID</string>
+
+    <string name="st_class_fr">识别管理</string>
+    <string name="st_class_permission">权限管理</string>
+    <string name="st_class_sysytem">系统管理</string>
+
+    <string name="liveness_demand_record">录入人脸</string>
+    <string name="liveness_demand_permission">验证权限</string>
+    <string name="liveness_demand_recognition">人脸识别</string>
+
+</resources>

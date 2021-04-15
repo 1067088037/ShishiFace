@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_home"
+                android:title="@string/menu_home"/>
+        <item
+                android:id="@+id/recognition"
+                android:title="@string/menu_recognition"/>
+        <item
+                android:id="@+id/manage_faces"
+                android:title="@string/menu_manage_faces"/>
+        <item
+                android:id="@+id/account_management"
+                android:title="@string/menu_account_management"/>
+        <item
+                android:id="@+id/about"
+                android:title="@string/menu_about"/>
+        <item
+                android:id="@+id/version"
+                android:title="" android:checkable="false"/>
+
+    </group>
+
+    <!--<item android:title="功能">-->
+        <!--<menu>-->
+            <!--<item-->
+                    <!--android:id="@+id/active"-->
+                    <!--android:title="@string/active"-->
+                    <!--android:onClick=""/>-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>

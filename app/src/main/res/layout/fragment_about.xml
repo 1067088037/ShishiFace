@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".fragment.AboutFragment">
+    <ImageView
+            android:src="@drawable/bg_about"
+            android:layout_width="wrap_content" android:scaleType="centerCrop"
+            android:layout_height="wrap_content"
+    />
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageButton
+                android:scaleType="centerInside"
+                android:background="@drawable/ust_effect"
+                app:srcCompat="@drawable/ust_logo" android:id="@+id/ustButton"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" android:layout_height="200dp" android:layout_width="200dp"
+                android:contentDescription="@string/todo"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.04"
+        />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

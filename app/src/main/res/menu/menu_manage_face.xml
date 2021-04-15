@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/allChecked"
+          android:title="@string/all_checked"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/reverseChoose"
+          android:title="@string/reverse_choose"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/delete"
+          android:title="@string/delete"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/input"
+          android:title="@string/input"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/output"
+          android:title="@string/output"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/add_temp_group"
+          android:title="@string/add_temp_group"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/clear_temp_group"
+          android:title="@string/clear_temp_group"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/temp_group"
+          android:title="@string/temp_group"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+</menu>

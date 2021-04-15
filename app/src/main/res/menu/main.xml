@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/active"
+          android:title="@string/active"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+    <item android:id="@+id/action_settings"
+          android:title="@string/action_settings"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+    <item android:id="@+id/destroy_permission"
+          android:title="@string/destroy_permission"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+    <item android:id="@+id/exit"
+          android:title="@string/exit"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+</menu>

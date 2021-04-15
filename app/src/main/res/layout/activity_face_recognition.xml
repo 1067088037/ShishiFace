@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".activity.FaceRecognitionActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".activity.FaceRecognition">
+
+        <FrameLayout
+                android:id="@+id/frameLayout"
+                app:layout_constraintDimensionRatio="w,16:9"
+                android:layout_height="0dp"
+                tools:context=".activity.PreviewActivity"
+                android:layout_width="0dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent">
+
+            <TextureView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/texture_preview"/>
+            <com.shishi.shishiface.widget.FaceRectView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/face_rect_view"/>
+        </FrameLayout>
+        <ImageView
+                android:layout_width="0dp" android:scaleType="fitXY"
+                android:layout_height="120dp" app:srcCompat="@drawable/background2"
+                app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" android:alpha="0.4"
+                android:contentDescription="@string/todo" android:id="@+id/fr_text_background"
+                app:layout_constraintHorizontal_bias="1.0"
+                android:layout_marginStart="32dp" android:layout_marginEnd="32dp" android:layout_marginBottom="32dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/fr_text_view_large" android:textSize="50sp"
+                app:layout_constraintEnd_toEndOf="@+id/fr_text_background"
+                app:layout_constraintTop_toTopOf="@+id/fr_text_background"
+                app:layout_constraintBottom_toBottomOf="@+id/fr_text_background"
+                app:layout_constraintVertical_bias="0.12" app:layout_constraintStart_toStartOf="@+id/fr_text_background"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/fr_text_view"
+                app:layout_constraintStart_toStartOf="@+id/fr_text_background"
+                app:layout_constraintEnd_toEndOf="@+id/fr_text_background"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="@+id/fr_text_background"
+                android:gravity="center"
+                app:layout_constraintTop_toTopOf="@+id/fr_text_background" app:layout_constraintVertical_bias="0.90"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

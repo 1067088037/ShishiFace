@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/use_password"
+          android:title="@string/use_password"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/restart_engine"
+          android:title="@string/restart_engine"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+</menu>
