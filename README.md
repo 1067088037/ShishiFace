@@ -1,0 +1,3 @@
+# ShishiFace
+## 2019年8月26日后不再更新
+ShishiFace由四川省成都市石室中学STEAM实验室FTC项目队伍UST程序员Summer-lights设计，是一款基于ArcFace的面向校园的人脸识别系统。
